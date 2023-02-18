@@ -1,12 +1,12 @@
 
-import Pages from './pages/index.vue';
-
 <template>
   <div id="app">
-    <indexPage />
+    <!-- <defaultLayout>
+    </defaultLayout> -->
+      <router-view />
   </div>
 </template>
 <script setup>
-import indexPage from './pages/index.vue';
+import defaultLayout from "./layouts/defaultLayout.vue";
 </script>
 <style></style>

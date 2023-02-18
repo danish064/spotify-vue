@@ -5,10 +5,10 @@
         </div>
         <div class="mx-2 mb-5">
             <!-- <button v-for="page in pages" @click="setID = page.id" :class="`w-full text-white text-sm font-semibold rounded  bg-black hover:bg-white hover:text-black px-3 py-2 flex item-center justify-start ${setID === page.id ? 'bg-light' : ''
-                                }`">
-                                <i class="material-icons mr-3">{{ page.icon }}</i>
-                                <p>{{ page.name }}</p>
-                            </button> -->
+                }`">
+                <i class="material-icons mr-3">{{ page.icon }}</i>
+                <p>{{ page.name }}</p>
+            </button> -->
             <button
                 class="`w-full text-white text-sm font-semibold rounded  bg-black hover:bg-white hover:text-black px-3 py-2 flex item-center justify-start">
                 <i class="material-icons mr-3">home</i>
